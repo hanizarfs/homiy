@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homiy</title>
+    <link rel="stylesheet" href="../../bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+
+</head>
+
+<body onclick="clicked(event)">
+    <div class="wrapper bg">
+        <div class="container-fluid px-5 py-3 h-100 d-flex justify-content-end align-items-end">
+            <img src="../../assets/img/opening/prof.svg" alt="Profesor" width="100" class="prof_animate">
+        </div>
+    </div>
+
+    <script src="../../bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.js"></script>
+    <script>
+        function clicked(event) {
+            var x = event.screenX;
+            var y = event.screenY;
+            var coords = "X coords: " + x + ", Y coords: " + y;
+            window.location.href = "../opening/menu.html";
+        }
+    </script>
+
+</body>
+
+</html>
